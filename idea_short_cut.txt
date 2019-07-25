@@ -1,0 +1,4 @@
+1.alt + shift + arrow
+2.alt + insert 
+3.alt + enter °ü¹ü exception
+4. ctrl + shift + f10
