@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3ddde7e-1dc6-4f6c-a561-39e66d59ea5a" name="Default Changelist" comment="" />
+    <list default="true" id="1e8e834b-59ef-4590-8554-64b1cb036a8a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,10 +16,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/lsx/DemoCollection.java">
+        <entry file="file://$PROJECT_DIR$/src/com/lsx/DemoPoker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="628">
-              <caret line="42" column="32" lean-forward="true" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+            <state relative-caret-position="741">
+              <caret line="39" column="35" lean-forward="true" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,7 +42,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/lsx/DemoCollection.java" />
+        <option value="$PROJECT_DIR$/src/com/lsx/DemoPoker.java" />
       </list>
     </option>
   </component>
@@ -58,18 +58,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="01java_day03_001collection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="01java_day03_001collection" type="462c0819:PsiDirectoryNode" />
+              <item name="01java_day03_003poker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01java_day03_003poker" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -96,9 +96,9 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="DemoCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lsx.DemoCollection" />
-      <module name="01java_day03_001collection" />
+    <configuration name="DemoPoker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lsx.DemoPoker" />
+      <module name="01java_day03_003poker" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.lsx.*" />
@@ -111,7 +111,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DemoCollection" />
+        <item itemvalue="Application.DemoPoker" />
       </list>
     </recent_temporary>
   </component>
@@ -120,17 +120,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d3ddde7e-1dc6-4f6c-a561-39e66d59ea5a" name="Default Changelist" comment="" />
-      <created>1564064997407</created>
+      <changelist id="1e8e834b-59ef-4590-8554-64b1cb036a8a" name="Default Changelist" comment="" />
+      <created>1564106363583</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1564064997407</updated>
-      <workItem from="1564064998925" duration="1415000" />
+      <updated>1564106363583</updated>
+      <workItem from="1564106365049" duration="579000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1415000" />
+    <option name="totallyTimeSpent" value="579000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
@@ -171,10 +171,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/lsx/DemoCollection.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lsx/DemoPoker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="42" column="32" lean-forward="true" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+        <state relative-caret-position="741">
+          <caret line="39" column="35" lean-forward="true" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -231,7 +231,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>01java_day03_001collection</last-edited>
+          <last-edited>01java_day03_003poker</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
