@@ -1,0 +1,5 @@
+#12345
+#Mon Jul 29 18:22:30 CST 2019
+age=20
+name=lushixin
+gender=男
