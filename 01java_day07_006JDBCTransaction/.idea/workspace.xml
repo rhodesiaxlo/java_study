@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="501a4a48-3495-4212-bfe2-f70d45a4b990" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../01java_day01_005OOP/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01java_day06_021Socket/src/com/lsx/DemoServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01java_day06_022FileUpload/in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01java_day06_022FileUpload/src/com/lsx/DemoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01java_day06_022FileUpload/src/com/lsx/DemoServerUpload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01java_day06_023example/in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01java_day06_023example/src/com/lsx/DemoOut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01java_day06_023example/src/com/lsx/DemoRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01java_day07_001JDBC/libs/mysql-connector-java-8.0.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01java_day07_001JDBC/src/com/lsx/DemoJDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01java_day07_001JDBC/src/ou.prop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01java_day07_002JDBCObject/libs/mysql-connector-java-8.0.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01java_day07_002JDBCObject/src/ou.prop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01java_day01_005OOP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../01java_day01_005OOP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01java_day01_005OOP/out/production/01java_day01_005OOP/com/lsx/NewPhone.class" beforeDir="false" afterPath="$PROJECT_DIR$/../01java_day01_005OOP/out/production/01java_day01_005OOP/com/lsx/NewPhone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01java_day01_005OOP/out/production/01java_day01_005OOP/com/lsx/OOPTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../01java_day01_005OOP/out/production/01java_day01_005OOP/com/lsx/OOPTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01java_day01_005OOP/src/com/lsx/OOPTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../01java_day01_005OOP/src/com/lsx/OOPTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01java_day06_011Properties/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../01java_day06_011Properties/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/lsx/DemoJDBCObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/lsx/DemoJDBCObject.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/libs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="01java_day07_006JDBCTransaction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01java_day07_006JDBCTransaction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01java_day07_006JDBCTransaction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01java_day07_006JDBCTransaction" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01java_day07_006JDBCTransaction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01java_day07_006JDBCTransaction" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lsx" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="DemoJDBCObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lsx.DemoJDBCObject" />
+      <module name="01java_day07_006JDBCTransaction" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lsx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DemoJDBCObject" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="501a4a48-3495-4212-bfe2-f70d45a4b990" name="Default Changelist" comment="" />
+      <created>1564481466900</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564481466900</updated>
+      <workItem from="1564481468177" duration="814000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="814000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/lsx/DemoJDBCObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

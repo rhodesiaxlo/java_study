@@ -11,8 +11,8 @@ public class OOPTest {
 
         // 情况2 不同的方法访问相同的变量，方法属于谁，使用税的本类变量
         System.out.println("=====================");
-        f1.fuMethod();
-        z1.methodZi();
+        f1.fuMethod(); // fu
+        z1.methodZi(); // zi
 
         // 情况3，继续第二种情况，父类或者局部变量怎么办
         System.out.println("=====================");
@@ -24,6 +24,7 @@ public class OOPTest {
         // 多态  父类的指针条用子类的方法
         Fu f2   = new Zi();
         f2.method();
+        System.out.println("=====================");
 
         // 伪代码实现
         OldPhone ol  = new OldPhone();
@@ -35,5 +36,7 @@ public class OOPTest {
         // gc 对象的生命周期
 
         // super 和 this 都需要first staement
+
+        // 子类对象的构造顺序
     }
 }

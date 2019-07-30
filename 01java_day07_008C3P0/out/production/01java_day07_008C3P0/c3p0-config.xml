@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<c3p0-config>
+  <default-config>
+    <property name="driverClass">com.mysql.cj.jdbc.Driver</property>
+    <property name="jdbcUrl">jdbc:mysql://139.129.212.114:3306/lsx_test</property>
+    <property name="user">root</property>
+    <property name="password">ba22c096d6af7ca3</property>
+    
+    <property name="initialPoolSize">5</property>
+    <property name="maxPoolSize">10</property>
+    <property name="checkoutTimeout">3000</property>
+  </default-config>
+
+  <named-config name="lsx">
+    <property name="driverClass">com.mysql.cj.jdbc.Driver</property>
+    <property name="jdbcUrl">jdbc:mysql://139.129.212.114:3306/lsx_test</property>
+    <property name="user">root</property>
+    <property name="password">ba22c096d6af7ca3</property>
+
+    <property name="initialPoolSize">50</property>
+    <property name="maxPoolSize">100</property>
+    <property name="checkoutTimeout">4000</property>
+  </named-config>
+</c3p0-config>

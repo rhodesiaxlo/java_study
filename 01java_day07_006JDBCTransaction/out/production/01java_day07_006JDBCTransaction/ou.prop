@@ -1,0 +1,4 @@
+connectionstring=jdbc:mysql://139.129.212.114:3306/lsx_test
+user=root
+password=ba22c096d6af7ca3
+driver=com.mysql.cj.jdbc.Driver
