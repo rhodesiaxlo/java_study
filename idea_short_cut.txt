@@ -1,4 +1,6 @@
 1.alt + shift + arrow
 2.alt + insert 
-3.alt + enter 관범 exception
+3.alt + enter 째체쨔체 exception
 4. ctrl + shift + f10
+6.ctrl +p
+7.ctrl+alt+p
