@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/com/lsx/Demo.java" line="95" mnemonic="0" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e573edf9-d41b-4e4d-9c6d-4bf5b12dd430" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../01java_day07_012stream/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../01java_day07_012stream/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01java_day07_012stream/src/com/lsx/DemoStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/../01java_day07_012stream/src/com/lsx/DemoStream.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/lsx/Demo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="120" column="27" lean-forward="true" selection-start-line="120" selection-start-column="27" selection-end-line="120" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/lsx/Person.java" />
+        <option value="$PROJECT_DIR$/src/com/lsx/Demo.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="199" />
+    <option name="y" value="77" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="01java_day07_013getStream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01java_day07_013getStream" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01java_day07_013getStream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01java_day07_013getStream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01java_day07_013getStream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01java_day07_013getStream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lsx" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.Demo.proTest">
+    <configuration name="Demo.concatTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="01java_day07_013getStream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lsx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lsx" />
+      <option name="MAIN_CLASS_NAME" value="com.lsx.Demo" />
+      <option name="METHOD_NAME" value="concatTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo.countTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="01java_day07_013getStream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lsx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lsx" />
+      <option name="MAIN_CLASS_NAME" value="com.lsx.Demo" />
+      <option name="METHOD_NAME" value="countTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo.limitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="01java_day07_013getStream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lsx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lsx" />
+      <option name="MAIN_CLASS_NAME" value="com.lsx.Demo" />
+      <option name="METHOD_NAME" value="limitTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo.proTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="01java_day07_013getStream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lsx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lsx" />
+      <option name="MAIN_CLASS_NAME" value="com.lsx.Demo" />
+      <option name="METHOD_NAME" value="proTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo.skipTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="01java_day07_013getStream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lsx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lsx" />
+      <option name="MAIN_CLASS_NAME" value="com.lsx.Demo" />
+      <option name="METHOD_NAME" value="skipTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Demo.proTest" />
+        <item itemvalue="JUnit.Demo.concatTest" />
+        <item itemvalue="JUnit.Demo.skipTest" />
+        <item itemvalue="JUnit.Demo.limitTest" />
+        <item itemvalue="JUnit.Demo.countTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e573edf9-d41b-4e4d-9c6d-4bf5b12dd430" name="Default Changelist" comment="" />
+      <created>1564496886040</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564496886040</updated>
+      <workItem from="1564496887273" duration="1560000" />
+      <workItem from="1564535719295" duration="971000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Demo_foreachTest - 2019.07.30 at 22h 36m 02s.xml">
+      <configuration name="Demo.foreachTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Demo_foreachTest - 2019.07.30 at 22h 36m 08s.xml">
+      <configuration name="Demo.foreachTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Demo_filterTest - 2019.07.30 at 22h 37m 54s.xml">
+      <configuration name="Demo.filterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Demo_streamCloseTest - 2019.07.30 at 22h 40m 46s.xml">
+      <configuration name="Demo.streamCloseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Demo_countTest - 2019.07.31 at 09h 16m 31s.xml">
+      <configuration name="Demo.countTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Demo_limitTest - 2019.07.31 at 09h 19m 21s.xml">
+      <configuration name="Demo.limitTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Demo_limitTest - 2019.07.31 at 09h 20m 14s.xml">
+      <configuration name="Demo.limitTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Demo_skipTest - 2019.07.31 at 09h 21m 07s.xml">
+      <configuration name="Demo.skipTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Demo_concatTest - 2019.07.31 at 09h 22m 42s.xml">
+      <configuration name="Demo.concatTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Demo_proTest - 2019.07.31 at 09h 31m 23s.xml">
+      <configuration name="Demo.proTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2531000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/lsx/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding>
+            <element signature="e#94#95#0" expanded="true" />
+            <element signature="e#121#122#0" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lsx/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="120" column="27" lean-forward="true" selection-start-line="120" selection-start-column="27" selection-end-line="120" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="03j2ee_web_day11_008Captcha:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/03j2ee_web_day11_008Captcha_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="03j2ee_web_day11_008Captcha/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="03j2ee_web_day11_008Captcha" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

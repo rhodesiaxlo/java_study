@@ -2,6 +2,7 @@ package com.lsx;
 
 import com.sun.scenario.effect.impl.prism.PrReflectionPeer;
 
+import javax.swing.tree.RowMapper;
 import java.util.*;
 import java.util.function.Predicate;
 import java.util.stream.Stream;
@@ -20,7 +21,8 @@ public class DemoStream {
         list.add("张飞");
 
         list.stream().filter(s -> s.contains("张"))
-                     .filter(s -> s.contains("飞")).findFirst();
+                     .filter(s -> s.contains("飞"));
+
 
 
     }
