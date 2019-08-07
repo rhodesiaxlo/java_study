@@ -28,6 +28,8 @@ public class ServletLogin extends HttpServlet {
         HttpSession session = request.getSession();
         String servercaptcha = (String)session.getAttribute("captcha");
         System.out.println("capt = " + captcha + " server capt = " + servercaptcha);
+        System.out.println("name = " + request.getParameter("name"));
+        System.out.println("password = " + request.getParameter("password"));
 
         if(null==captcha || !captcha.equalsIgnoreCase(servercaptcha)) {
             // 验证码不符，跳转，返回错误提示

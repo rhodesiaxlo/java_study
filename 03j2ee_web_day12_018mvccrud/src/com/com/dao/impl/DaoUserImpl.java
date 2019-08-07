@@ -1,6 +1,7 @@
 package com.com.dao.impl;
 
 import com.com.dao.DaoUser;
+import com.domain.PageBean;
 import com.domain.User;
 import com.lsx.DruidUtil;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
@@ -9,15 +10,111 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 public class DaoUserImpl implements DaoUser {
+    @Override
+    public Integer totalCount(Map<String, String[]> condition) {
+
+        // 使用 jdbctemplate 查询
+
+        JdbcTemplate tpl = new JdbcTemplate(DruidUtil.getDatasource());
+
+        String sql = "select count(*) from user where 1";
+
+        List<String> params = new ArrayList<>();
+        StringBuilder sb = new StringBuilder(sql);
+        if(null!=condition) {
+            Set<String> keys = condition.keySet();
+            for (String key : keys) {
+                if("currentPage".equalsIgnoreCase(key)||"recordPerPage".equalsIgnoreCase(key)) {
+                    continue;
+                }
+                String val = condition.get(key)[0];
+
+                if(!val.isEmpty()) {
+                    sb.append("  and " + key + " like ? ");
+                    params.add("%" +val+ "%");
+                }
+            }
+        }
+
+        System.out.println("query string = " +sb.toString());
+        System.out.println("param = " +params);
+        Integer count = tpl.queryForObject(sb.toString(), Integer.class, params.toArray());
+        return count;
+
+    }
+
+    @Override
+    public PageBean<User> findUserByPage(int currentPage, int rows, Map<String, String[]> condition) {
+        // 生成空的pagebean
+        PageBean<User> page = new PageBean<>();
+        // 设置当前页面的属
+        page.setCurrent(currentPage);
+        page.setRecordPerPage(rows);
+
+        // 获得所有记录数
+        Integer total = totalCount(condition);
+        int pageTotal = total % rows ==0?total/rows:total/rows+1;
+        page.setRecordTotal(total);
+        page.setPageTotal(pageTotal);
+
+        // 根据 current 和 record_per_page 查询记录 dao.findbypage(
+        // 查询  (current-1)*rows
+        JdbcTemplate tpl = new JdbcTemplate(DruidUtil.getDatasource());
+
+        // 动态sql
+
+
+        String sql = "select * from user where 1";
+        List<String> params = new ArrayList<>();
+
+        StringBuilder sb = new StringBuilder(sql);
+        if(null!=condition) {
+            Set<String> keys = condition.keySet();
+            for (String key : keys) {
+                if("currentPage".equalsIgnoreCase(key)||"recordPerPage".equalsIgnoreCase(key)) {
+                    continue;
+                }
+                String val = condition.get(key)[0];
+
+                if(!val.isEmpty()) {
+                    sb.append("  and " + key + " like ? ");
+                    params.add("%" +val+ "%");
+                }
+            }
+        }
+
+
+
+
+
+        Integer start = (currentPage-1)*rows;
+        Integer end = currentPage*rows;
+
+        sb.append(" limit " + start + ", " + end);
+
+
+        System.out.println("  find user by page  sql = " + sb.toString());
+        System.out.println(" find user by page params = " + params);
+
+        List<User> lst = tpl.query(sb.toString(), new BeanPropertyRowMapper<User>(User.class), params.toArray());
+
+        page.setList(lst);
+        // 返回 pagebean 对象
+
+        return page;
+    }
+
     @Override
     public User userLogin(User u) {
         JdbcTemplate tpl = new JdbcTemplate(DruidUtil.getDatasource());
 
-        String sql = "select * from user where name = ? and password = ?";
+        String sql = "select * from user where name = ? and password = ? ";
         User user;
         System.out.println("login user = " + u);
         try {

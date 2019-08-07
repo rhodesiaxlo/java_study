@@ -1,5 +1,5 @@
 <!-- display info -->
-<div bgcolor="pink" width="200px">
-    <p> user_id :<strong>${pageContext.request.getSession().getAttribute("user_id")}</strong></p>
-    <p> captcha :<strong>${pageContext.request.getSession().getAttribute("captcha")}</strong></p>
+<div style="color:red">
+    <p> <strong>user_id</strong>:<strong color="red">${pageContext.request.getSession().getAttribute("user_id")}</strong></p>
+    <p> <strong>captcha</strong> :<strong color="red">${pageContext.request.getSession().getAttribute("captcha")}</strong></p>
 </div>

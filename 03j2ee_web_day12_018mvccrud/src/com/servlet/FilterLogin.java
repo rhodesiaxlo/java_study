@@ -24,7 +24,11 @@ public class FilterLogin implements Filter {
                 ((HttpServletResponse) resp).sendRedirect(req2.getContextPath()+"/users");
             }
 
-        } else {
+            // 静态资源
+        } else if(requestURI.contains("css") || requestURI.contains("js") || requestURI.contains("image")) {
+            chain.doFilter(req, resp);
+            return;
+        }else {
             // 检查登录信息
             HttpSession session = req2.getSession();
             Object user_id = session.getAttribute("user_id");
