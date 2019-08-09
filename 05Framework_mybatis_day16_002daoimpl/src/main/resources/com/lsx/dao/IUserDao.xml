@@ -6,6 +6,24 @@
 
 <mapper namespace="com.lsx.dao.IUserDao">
     <select id="findAll" resultType="com.lsx.domain.User">
-    select * from user
+        select * from user
+    </select>
+    <insert id="saveUser" parameterType="com.lsx.domain.User">
+        insert into user(`name`, `password`, `age`, `birthday`, `address`, `sex`) values (#{name}, #{password}, #{age}, #{birthday}, #{address}, #{sex})
+    </insert>
+    <update id="updateUser" parameterType="com.lsx.domain.User">
+        update user set name = #{name}, password=#{password}, age=#{age}, birthday=#{birthday}, sex=#{sex}, address=#{address} where id=#{id}
+    </update>
+
+    <delete id="delUser" parameterType="java.lang.Integer">
+        delete from user where id = ${userid}
+    </delete>
+
+    <select id="findOne" parameterType="java.lang.Integer" resultType="com.lsx.domain.User">
+        select * from user where id = #{id}
   </select>
+
+    <select id="findByName" parameterType="java.lang.String" resultType="com.lsx.domain.User">
+        select * from user where name like #{name}
+    </select>
 </mapper>
