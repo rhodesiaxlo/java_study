@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:annotation-config/>
+
+    <!-- 定义扫描包 -->
+    <context:component-scan base-package="com.lsx"></context:component-scan>
+
+    <!-- 定义资源文件 -->
+    <context:property-placeholder location="classpath:jdbcConfig.properties"/>
+
+
+    <!--
+     定义bean对象
+     自己创建的对象可以通过注解来实现注入
+     jar 包中的通过 xml 注入比较简单
+     -->
+
+    <bean id="userservice1" class="com.lsx.service.impl.IAccountServivceImpl">
+        <!-- 在添加了 getter setter 之后，这个配置可用-->
+        <property name="userdao1" ref="userdao"></property>
+    </bean>
+
+    <bean id="userdao" class="com.lsx.dao.impl.IUserDaoImpl">
+        <property name="runner" ref="runner"></property>
+        <property name="connUtil" ref="connutils"></property>
+    </bean>
+
+    <!-- 注意 prototype -->
+    <bean id="runner" class="org.apache.commons.dbutils.QueryRunner" scope="prototype">
+        <constructor-arg name="ds" ref="datasource"></constructor-arg>
+        
+    </bean>
+
+    <bean id="connutils" class="com.lsx.util.ConnUtil">
+        <property name="ds" ref="datasource"></property>
+    </bean>
+
+    <bean id="datasource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="${jdbc.driver}"></property>
+        <property name="jdbcUrl" value="${jdbc.url}"></property>
+        <property name="user" value="${jdbc.username}"></property>
+        <property name="password" value="${jdbc.password}"></property>
+    </bean>
+</beans>
