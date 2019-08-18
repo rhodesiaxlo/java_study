@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="23773574-4be1-4e14-947a-7c2cceb81d06" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../06DesignPattern_day20_005simpleFactory/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06DesignPattern_day20_005simpleFactory/src/main/java/com/lsx/IPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06DesignPattern_day20_005simpleFactory/src/main/java/com/lsx/IPizzaShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06DesignPattern_day20_005simpleFactory/src/main/java/com/lsx/impl/BasePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06DesignPattern_day20_005simpleFactory/src/main/java/com/lsx/impl/BasePizzaShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06DesignPattern_day20_005simpleFactory/src/main/java/com/lsx/impl/BiShengIngredientFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06DesignPattern_day20_005simpleFactory/src/main/java/com/lsx/impl/BiShengMeatPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06DesignPattern_day20_005simpleFactory/src/main/java/com/lsx/impl/BiShengVeggiePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06DesignPattern_day20_005simpleFactory/src/main/java/com/lsx/impl/BiShengpicePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06DesignPattern_day20_005simpleFactory/src/main/java/com/lsx/impl/BishengPizzaShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06DesignPattern_day20_005simpleFactory/src/main/java/com/lsx/impl/Cheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06DesignPattern_day20_005simpleFactory/src/main/java/com/lsx/impl/Clam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06DesignPattern_day20_005simpleFactory/src/main/java/com/lsx/impl/Dough.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06DesignPattern_day20_005simpleFactory/src/main/java/com/lsx/impl/GredientFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06DesignPattern_day20_005simpleFactory/src/main/java/com/lsx/impl/MeatPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06DesignPattern_day20_005simpleFactory/src/main/java/com/lsx/impl/OtherPizzaShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06DesignPattern_day20_005simpleFactory/src/main/java/com/lsx/impl/Pepperoni.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06DesignPattern_day20_005simpleFactory/src/main/java/com/lsx/impl/Source.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06DesignPattern_day20_005simpleFactory/src/main/java/com/lsx/impl/SpicePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06DesignPattern_day20_005simpleFactory/src/main/java/com/lsx/impl/Veggie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06DesignPattern_day20_005simpleFactory/src/main/java/com/lsx/impl/VeggiePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06DesignPattern_day20_005simpleFactory/src/main/java/com/lsx/impl/ZizunGredientFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06DesignPattern_day20_005simpleFactory/src/main/java/com/lsx/impl/ZizunMeatPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06DesignPattern_day20_005simpleFactory/src/main/java/com/lsx/impl/ZizunPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06DesignPattern_day20_005simpleFactory/src/main/java/com/lsx/impl/ZizunVeggiePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06DesignPattern_day20_005simpleFactory/src/main/java/com/lsx/impl/ZizunpicePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06DesignPattern_day20_005simpleFactory/src/main/java/com/lsx/util/PizzaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06DesignPattern_day20_005simpleFactory/src/test/java/com/lsx/PizzaTest.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lsx/HomeAppli/impl/off/SteroOffCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+              <folding>
+                <element signature="e#294#295#0" expanded="true" />
+                <element signature="e#328#329#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lsx/HomeAppli/impl/off/KitchenLightOffCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+              <folding>
+                <element signature="e#442#443#0" expanded="true" />
+                <element signature="e#481#482#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lsx/HomeAppli/Remotor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#313#314#0" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#461#462#0" expanded="true" />
+                <element signature="e#806#807#0" expanded="true" />
+                <element signature="e#831#832#0" expanded="true" />
+                <element signature="e#893#894#0" expanded="true" />
+                <element signature="e#941#942#0" expanded="true" />
+                <element signature="e#1017#1018#0" expanded="true" />
+                <element signature="e#1051#1052#0" expanded="true" />
+                <element signature="e#1114#1115#0" expanded="true" />
+                <element signature="e#1149#1150#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06DesignPattern_day21_007command.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/lsx/RemoterTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="37" column="35" lean-forward="true" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="105">
+                <caret line="7" selection-start-line="7" selection-end-line="7" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lsx/HomeAppli/KitchenLight.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+              <folding>
+                <element signature="e#105#106#0" expanded="true" />
+                <element signature="e#148#149#0" expanded="true" />
+                <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lsx/HomeAppli/BedroomLight.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lsx/HomeAppli/impl/off/GarageDoorOffCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+              <folding>
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#277#278#0" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
+                <element signature="e#414#415#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lsx/HomeAppli/impl/off/BedroomLightOffCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lsx/HomeAppli/Fan.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lsx/HomeAppli/ICommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lsx/HomeAppli/ILight.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lsx/HomeAppli/impl/on/KitchenLightOnCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lsx/HomeAppli/impl/on/BedroomLightOnCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lsx/HomeAppli/Stero.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lsx/HomeAppli/impl/on/SteroOnCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lsx/HomeAppli/GarageDoor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lsx/HomeAppli/impl/off/KitchenLightOffCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lsx/HomeAppli/impl/off/BedroomLightOffCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lsx/HomeAppli/impl/off/SteroOffCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lsx/HomeAppli/impl/NoCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lsx/HomeAppli/impl/on/GarageDoorOnCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lsx/HomeAppli/KitchenLight.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lsx/HomeAppli/BedroomLight.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lsx/HomeAppli/impl/off/GarageDoorOffCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lsx/HomeAppli/Remotor.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/lsx/RemoterTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../apache-maven-3.6.1/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-DarchetypeCatelog=internal" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="823" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="06DesignPattern_day21_007command" type="b2602c69:ProjectViewProjectNode" />
+              <item name="06DesignPattern_day21_007command" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="06DesignPattern_day21_007command" type="b2602c69:ProjectViewProjectNode" />
+              <item name="06DesignPattern_day21_007command" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="06DesignPattern_day21_007command" type="b2602c69:ProjectViewProjectNode" />
+              <item name="06DesignPattern_day21_007command" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="06DesignPattern_day21_007command" type="b2602c69:ProjectViewProjectNode" />
+              <item name="06DesignPattern_day21_007command" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="06DesignPattern_day21_007command" type="b2602c69:ProjectViewProjectNode" />
+              <item name="06DesignPattern_day21_007command" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeAppli" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="06DesignPattern_day21_007command" type="b2602c69:ProjectViewProjectNode" />
+              <item name="06DesignPattern_day21_007command" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeAppli" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="06DesignPattern_day21_007command" type="b2602c69:ProjectViewProjectNode" />
+              <item name="06DesignPattern_day21_007command" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeAppli" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="off" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="06DesignPattern_day21_007command" type="b2602c69:ProjectViewProjectNode" />
+              <item name="06DesignPattern_day21_007command" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeAppli" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="on" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="06DesignPattern_day21_007command" type="b2602c69:ProjectViewProjectNode" />
+              <item name="06DesignPattern_day21_007command" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="06DesignPattern_day21_007command" type="b2602c69:ProjectViewProjectNode" />
+              <item name="06DesignPattern_day21_007command" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="06DesignPattern_day21_007command" type="b2602c69:ProjectViewProjectNode" />
+              <item name="06DesignPattern_day21_007command" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lsx" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="RemoterTest.remoterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="06DesignPattern_day21_007command" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lsx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lsx" />
+      <option name="MAIN_CLASS_NAME" value="com.lsx.RemoterTest" />
+      <option name="METHOD_NAME" value="remoterTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RemoterTest.remoterTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="23773574-4be1-4e14-947a-7c2cceb81d06" name="Default Changelist" comment="" />
+      <created>1566105705425</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566105705425</updated>
+      <workItem from="1566105706740" duration="2876000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="RemoterTest_remoterTest - 2019.08.18 at 13h 56m 15s.xml">
+      <configuration name="RemoterTest.remoterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RemoterTest_remoterTest - 2019.08.18 at 13h 56m 19s.xml">
+      <configuration name="RemoterTest.remoterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RemoterTest_remoterTest - 2019.08.18 at 13h 57m 33s.xml">
+      <configuration name="RemoterTest.remoterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RemoterTest_remoterTest - 2019.08.18 at 13h 58m 22s.xml">
+      <configuration name="RemoterTest.remoterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RemoterTest_remoterTest - 2019.08.18 at 13h 59m 31s.xml">
+      <configuration name="RemoterTest.remoterTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2876000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="823" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" weight="0.32968536" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32968536" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994528" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lsx/HomeAppli/Fan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+          <folding>
+            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#135#136#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lsx/HomeAppli/ICommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lsx/HomeAppli/ILight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lsx/HomeAppli/impl/on/BedroomLightOnCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lsx/HomeAppli/Stero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding>
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lsx/HomeAppli/impl/on/SteroOnCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lsx/HomeAppli/GarageDoor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="e#79#80#0" expanded="true" />
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lsx/HomeAppli/impl/on/KitchenLightOnCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lsx/HomeAppli/impl/NoCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+          <folding>
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lsx/HomeAppli/impl/on/GarageDoorOnCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06DesignPattern_day21_007command.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lsx/HomeAppli/KitchenLight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lsx/HomeAppli/BedroomLight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lsx/HomeAppli/impl/off/SteroOffCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lsx/HomeAppli/impl/off/KitchenLightOffCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding>
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lsx/HomeAppli/impl/off/GarageDoorOffCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lsx/HomeAppli/impl/off/BedroomLightOffCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lsx/HomeAppli/Remotor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
+            <element signature="e#941#942#0" expanded="true" />
+            <element signature="e#1017#1018#0" expanded="true" />
+            <element signature="e#1051#1052#0" expanded="true" />
+            <element signature="e#1114#1115#0" expanded="true" />
+            <element signature="e#1149#1150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lsx/RemoterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="37" column="35" lean-forward="true" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="105">
+            <caret line="7" selection-start-line="7" selection-end-line="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,41 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<!--
+spring mvc 环境搭建的一般步骤
+1. 新增 source root 和 resource root
+2. 导入坐标
+3. 引导如 springmvc 的 dispatch
+4. 配置springmvc 配置文件，加入引导
+5. 在 springmvc 的配置文件中注册视图解析器
+
+-->
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <servlet>
+    <servlet-name>app</servlet-name>
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    <init-param>
+      <param-name>contextConfigLocation</param-name>
+      <param-value>classpath:springmvc.xml</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>app</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
+
+
+  <filter>
+    <filter-name>characterEncodingFilter</filter-name>
+    <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>characterEncodingFilter</filter-name>
+    <url-pattern>/</url-pattern>
+  </filter-mapping>
+</web-app>

@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [14/Aug/2019:15:42:05 +0800] "GET /05Frame_springmvc_day19_001web HTTP/1.1" 302 - http-bio-9090-exec-1 0
+0:0:0:0:0:0:0:1 - - [14/Aug/2019:15:42:05 +0800] "GET /05Frame_springmvc_day19_001web/ HTTP/1.1" 200 345 http-bio-9090-exec-3 496
+0:0:0:0:0:0:0:1 - - [14/Aug/2019:15:42:08 +0800] "GET /05Frame_springmvc_day19_001web/index9.jsp HTTP/1.1" 200 192 http-bio-9090-exec-4 37
+0:0:0:0:0:0:0:1 - - [14/Aug/2019:15:42:10 +0800] "GET /05Frame_springmvc_day19_001web/param/excep HTTP/1.1" 200 91 http-bio-9090-exec-5 85
