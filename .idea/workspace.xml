@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02b96b30-3e93-44fc-8449-ba5b681dcc0f" name="Default Changelist" comment="" />
+    <list default="true" id="02b96b30-3e93-44fc-8449-ba5b681dcc0f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/project/Mybatis_day01_001mybatisfromzero/src/main/java/com/lsx/dao/IDaoUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/Mybatis_day01_001mybatisfromzero/src/main/java/com/lsx/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/Mybatis_day01_001mybatisfromzero/src/main/resources/MySqlConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/Mybatis_day01_001mybatisfromzero/src/main/resources/com/lsx/dao/IDaoUser.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/Mybatis_day01_001mybatisfromzero/src/main/resources/jdbcConfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/Mybatis_day01_001mybatisfromzero/src/test/java/com/lsx/MyBatiss.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05Framework_mybatis_day16_002daoimpl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/05Framework_mybatis_day16_002daoimpl/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +63,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -83,16 +92,17 @@
       <updated>1565339924805</updated>
       <workItem from="1565339926090" duration="15000" />
       <workItem from="1565615380378" duration="2000" />
+      <workItem from="1566191966794" duration="2000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17000" />
+    <option name="totallyTimeSpent" value="19000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="42" width="1400" height="771" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533137" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2569956" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />

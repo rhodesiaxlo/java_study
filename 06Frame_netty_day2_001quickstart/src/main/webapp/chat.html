@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="message" >
+<input type="button" value="发送消息" onclick="sendMs()">
+
+<p style="background-color: #AAAAAA" id="server-message"></p>
+</body>
+<script>
+
+    var websocket = null;
+    if(window.WebSocket) {
+        websocket = new WebSocket("ws://127.0.0.1:9090/ws"); 
+        
+
+        websocket.onopen = function() {
+            console.log("建立连接");
+        };
+
+        websocket.onclose = function() {
+            console.log("断开连接");
+        };
+
+        websocket.onmessage = function(e) {
+            console.log("从服务器接收到的消息是： " + e.data);
+
+            var el = document.getElementById("server-message");
+            el.innerHTML += e.data + "<br/>";
+        }
+
+    } else {
+        alert(" 不支持websocket"); 
+    }
+
+    function sendMs() {
+        var el = document.getElementById("message");
+        websocket.send(el.value); 
+
+    }
+</script>
+</html>
